@@ -39,6 +39,7 @@ public class TestStructuralPattern {
     public void test03() {
         AbstractObject obj = new ProxyObject();
         obj.operation();
+        System.out.println();
     }
 
 }
